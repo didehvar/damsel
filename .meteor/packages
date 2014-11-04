@@ -4,8 +4,8 @@
 # but you can also edit it by hand.
 
 meteor-platform
-iron:router
 less
-accounts-password
+iron:router
 mquandalle:harmony
-accounts-ui
+ian:accounts-ui-bootstrap-3
+accounts-password
