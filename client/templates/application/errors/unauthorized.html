@@ -1,0 +1,9 @@
+<template name="errorUnauthorized">
+  <div class="jumbotron">
+    <h1>401 - Unauthorized.</h1>
+    <p>
+      You must be {{#if admin}}an admin{{else}}logged in{{/if}} to access this
+      page.
+    </p>
+  </div>
+</template>
