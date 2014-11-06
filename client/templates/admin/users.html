@@ -1,0 +1,11 @@
+<template name="adminUsers">
+  <ul>
+    {{#each users}}
+      {{> adminUser}}
+    {{/each}}
+  </ul>
+</template>
+
+<template name="adminUser">
+  <li>{{username}}</li>
+</template>
